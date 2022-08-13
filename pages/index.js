@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { About } from '../components/About'
+import { Main } from '../components/Main'
 import { Navbar } from '../components/Navbar'
+import { ToolKits } from '../components/ToolKits'
 
 export default function Home() {
   return (
@@ -12,7 +15,9 @@ export default function Home() {
       </Head>
 
       <Navbar />
-      
+      <Main />
+      <About />
+      <ToolKits />
     </div>
   )
 }

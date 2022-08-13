@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import {AiOutlineCloseCircle} from 'react-icons/ai'
 import {FcMenu} from 'react-icons/fc'
-import {BsLinkedin,BsTwitter,BsGithub} from 'react-icons/bs'
+import {BsLinkedin,BsTwitter,BsGithub, BsFacebook} from 'react-icons/bs'
 
 export const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -76,6 +76,9 @@ export const Navbar = () => {
                                 </div>
                                 <div className='shadow-lg shadow-gray-400 p-3 cursor-pointer rounded-full hover:scale-105 ease-in duration-200'>
                                     <BsGithub />
+                                </div>
+                                <div className='shadow-lg shadow-gray-400 p-3 cursor-pointer rounded-full hover:scale-105 ease-in duration-200'>
+                                    <BsFacebook />
                                 </div>
                             </div>
                         </div>
