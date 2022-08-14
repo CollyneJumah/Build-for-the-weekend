@@ -8,7 +8,7 @@ export const ToolKits = () => {
             <p className='uppercase text-xl tracking-widest text-[#5651e5] font-semibold'>Skills</p>
             <h2 className='py-4'>My toolkits ?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer">
                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
                         <div className="m-auto">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"  width="64px" height="64px" />
@@ -18,7 +18,7 @@ export const ToolKits = () => {
                         </div>
                     </div>
                 </div>
-                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer">
                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
                         <div className="m-auto">
                             <Image src="/assets/toolkits/css3.svg" alt='HTML'  width="64px" height="64px" />
@@ -28,7 +28,7 @@ export const ToolKits = () => {
                         </div>
                     </div>
                 </div>
-                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer">
                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
                         <div className="m-auto">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
@@ -40,7 +40,7 @@ export const ToolKits = () => {
                         </div>
                     </div>
                 </div>
-                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer">
                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
                         <div className="m-auto">
                             <Image src="/assets/toolkits/tailwind-css.svg" alt='HTML'  width="64px" height="64px" />
@@ -50,7 +50,7 @@ export const ToolKits = () => {
                         </div>
                     </div>
                 </div>
-                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer">
                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
                         <div className="m-auto">
                             <Image src="/assets/toolkits/react.svg" alt='HTML'  width="64px" height="64px" />
@@ -60,7 +60,7 @@ export const ToolKits = () => {
                         </div>
                     </div>
                 </div>
-                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer">
                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
                         <div className="m-auto">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" alt='NextJS'  width="64px" height="64px"  />
