@@ -14,7 +14,6 @@ export default function Home() {
         <meta name="description" content="Build ForThe WeekEnd" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
       <Main />
       <About />
       <ToolKits />
