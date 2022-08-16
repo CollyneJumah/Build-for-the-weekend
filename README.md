@@ -1,5 +1,5 @@
 # Introduction
-![logo](public/assets/images/Buildfortheweekend.svg)
+![logo](public/Build%20for%20the%20weekend.svg)
 Build for the weekend portfolio built with [Next](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/).
 ## ICONS Used
 
