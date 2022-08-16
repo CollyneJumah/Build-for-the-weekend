@@ -7,7 +7,11 @@ export const Main = () => {
         <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
            <div>
                 <p className='uppercase text-sm tracking-widest text-gray-600'>{`Let's build something Together`}</p>
-                <h1 className='py-4 text-gray-700'>Hi, {`I'm`} <span className='text-[#5651e5]'>Collins Jumah</span></h1>
+                <h1 className='py-4 text-gray-700'>Hi, {`I'm`} 
+                    <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#B55626] relative inline-block">
+                        <span className="relative text-white">Collins Jumah</span>
+                    </span>
+                </h1>
                 <h1 className='py-2 text-gray-700'>A Front-End Web Developer</h1>
                 <p className='py-4 text-gray-700 max-w-[70%] m-auto'>
                 {`I’m a developer, writer, and a creator. Specializing in building and esp designing excemptional digital experiences. 

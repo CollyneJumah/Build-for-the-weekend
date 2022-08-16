@@ -23,8 +23,8 @@ const tawihealth = () =>{
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, fuga! Lorem ipsum dolor sit 
               amet consectetur adipisicing elit. Enim dolore veniam soluta numquam nobis provident.
             </p>
-            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-            <button className='px-8 py-2 mt-4'>Code</button>
+            <button className='px-8 py-2 mt-4 rounded-full mr-8 active:bg-[#86594c] focus:ring focus-ring-[#d0c5d1] '>Demo</button>
+            <button className='px-8 py-2 mt-4  rounded-full active:bg-[rgb(231,224,223)] focus:ring focus-ring-[#d0c5d1]'>Code</button>
           </div>
           <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className='p-2'>

@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import {AiOutlineCloseCircle} from 'react-icons/ai'
-import {FcMenu} from 'react-icons/fc'
-import {BsLinkedin,BsTwitter,BsGithub, BsFacebook} from 'react-icons/bs'
+import {FaBars} from 'react-icons/fa'
+import {BsLinkedin,BsTwitter,BsGithub, BsFacebook, BsMenuUp} from 'react-icons/bs'
 import {useRouter} from 'next/router'
 
 export const Navbar = () => {
@@ -49,7 +49,7 @@ export const Navbar = () => {
             className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]':'fixed w-full h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <Link href="/#home" >
-                    <Image className='hover:cursor-pointer' src="/assets/images/collins.jpg" width={120} height={120} alt="" />
+                    <Image className='hover:cursor-pointer' src="/assets/images/Buildfortheweekend.svg" width={160} height={160} alt="" />
                 </Link>
                 <div>
                     <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
@@ -70,7 +70,7 @@ export const Navbar = () => {
                         </Link>
                     </ul> 
                     <div onClick={handleNav} className='md:hidden'>
-                        <FcMenu size={25} />
+                        <FaBars size={25} className="text-[#86594c]" />
                     </div>
                 </div>
             </div>
@@ -82,10 +82,10 @@ export const Navbar = () => {
                     <div>
                         <div className='flex w-full items-center justify-between'>
                             <Link href="/#home">
-                                <Image src="/assets/images/collins.jpg" className='hover:cursor-pointer' width={87} height={87} alt="" />
+                                <Image src="/assets/images/Buildfortheweekend.svg" className='hover:cursor-pointer' width={90} height={90} alt="" />
                             </Link>
                             <div onClick={handleNav} className='shadow-lg shadow-gray-400 p-3 cursor-pointer rounded-full'>
-                                <AiOutlineCloseCircle size={25} />
+                                <AiOutlineCloseCircle size={25} className="text-[#86594c]" />
                             </div>
                         </div>
                         <div className='border-b border-gray-300 my-4'>
@@ -111,7 +111,7 @@ export const Navbar = () => {
                             </Link>
                         </ul>
                         <div className="pt-40">
-                            <p className='uppercase tracking-widest text-[#5651e5]'>Lets connect ?</p>
+                            <p className='capitalize tracking-widest text-[#86594c] font-bold'>Lets connect ?</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <div className='shadow-lg shadow-gray-400 p-3 cursor-pointer rounded-full hover:scale-105 ease-in duration-200'>
                                     <BsLinkedin />
