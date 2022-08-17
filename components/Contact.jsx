@@ -7,7 +7,7 @@ export const Contact = () => {
     <div id="contact" className="w-full lg:h-screen">
         <div className="max-w-[1240px] mx-auto px-2 py-16">
             <p className='capitalize  text-xl tracking-widest text-[#86594c] font-bold'>{`Let's Talk`}</p>
-            <h2 className='py-4'>Drop your message</h2>
+            <h2 className='py-4'>Drop your message 📞</h2>
             <div className="grid lg:grid-cols-5 gap-8">
                 <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4 hover:cursor-pointer">
                     <div className="lg:p-4 h-full">

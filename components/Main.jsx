@@ -6,8 +6,8 @@ export const Main = () => {
     <div id="home" className='w-full h-screen text-center'>
         <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
            <div>
-                <p className='uppercase text-sm tracking-widest text-gray-600'>{`Let's build something Together`}</p>
-                <h1 className='py-4 text-gray-700'>Hi, {`I'm`} 
+                <p className='capitalize text-sm tracking-widest text-gray-600 font-bold'>  Build 🏗️ for the Weekend </p>
+                <h1 className='py-4 text-gray-700'>Hi, 👋 {`I'm`} 
                     <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#B55626] relative inline-block">
                         <span className="relative text-white">Collins Jumah</span>
                     </span>
