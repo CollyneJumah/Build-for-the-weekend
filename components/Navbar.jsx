@@ -110,20 +110,20 @@ export const Navbar = () => {
                                 <li onClick={()=> setNav(false)} className='py-4 text-sm'>Contact </li>
                             </Link>
                         </ul>
-                        <div className="pt-40">
+                        <div className="pt-24">
                             <p className='capitalize tracking-widest text-[#86594c] font-bold'>Lets connect ?</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <div className='shadow-lg shadow-gray-400 p-3 cursor-pointer rounded-full hover:scale-105 ease-in duration-200'>
-                                    <BsLinkedin />
+                                    <BsLinkedin className='text-[#007bb6]' />
                                 </div>
                                 <div className='shadow-lg shadow-gray-400 p-3 cursor-pointer rounded-full hover:scale-105 ease-in duration-200'>
-                                    <BsTwitter />
+                                    <BsTwitter className='text-[#00aced]' />
                                 </div>
                                 <div className='shadow-lg shadow-gray-400 p-3 cursor-pointer rounded-full hover:scale-105 ease-in duration-200'>
                                     <BsGithub />
                                 </div>
                                 <div className='shadow-lg shadow-gray-400 p-3 cursor-pointer rounded-full hover:scale-105 ease-in duration-200'>
-                                    <BsFacebook />
+                                    <BsFacebook className='text-[#3b5998]' />
                                 </div>
                             </div>
                         </div>

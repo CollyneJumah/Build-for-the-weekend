@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import { BsChevronDoubleUp, BsFacebook, BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs'
+import Footer from './Footer'
 
 export const Contact = () => {
   return (
@@ -82,6 +83,7 @@ export const Contact = () => {
                 </Link>
             </div>
         </div>
+        <Footer />
     </div>
   )
 }

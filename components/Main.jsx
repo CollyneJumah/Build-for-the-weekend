@@ -20,16 +20,16 @@ export const Main = () => {
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                     <div className='shadow-lg shadow-gray-400 p-6 cursor-pointer rounded-full hover:scale-105 ease-in duration-200'>
-                        <BsLinkedin />
+                        <BsLinkedin className='text-[#007bb6]' />
                     </div>
                     <div className='shadow-lg shadow-gray-400 p-6 cursor-pointer rounded-full hover:scale-105 ease-in duration-200'>
-                        <BsTwitter />
+                        <BsTwitter className='text-[#00aced]'  />
                     </div>
                     <div className='shadow-lg shadow-gray-400 p-6 cursor-pointer rounded-full hover:scale-105 ease-in duration-200'>
                         <BsGithub />
                     </div>
                     <div className='shadow-lg shadow-gray-400 p-6 cursor-pointer rounded-full hover:scale-105 ease-in duration-200'>
-                        <BsFacebook />
+                        <BsFacebook className='text-[#3b5998]' />
                     </div>
                 </div>
            </div>
