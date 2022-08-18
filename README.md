@@ -4,6 +4,6 @@ Build for the weekend portfolio built with [Next](https://nextjs.org/) and [Tail
 ## ICONS Used 😄 👋
 - [Dev Icons](https://devicon.dev/)
 - [Icons 8](https://icons8.com/icons/set)
-- 
+- [Favicon Converter](https://favicon.io/favicon-converter/)
 ### Screenshot
 ![screen](/public/screen-shot.png)

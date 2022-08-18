@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         <title>Build ForThe WeekEnd</title>
         <meta name="description" content="Build ForThe WeekEnd" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon/favicon.ico" />
       </Head>
       <Main />
       <About />
