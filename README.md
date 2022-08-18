@@ -5,3 +5,5 @@ Build for the weekend portfolio built with [Next](https://nextjs.org/) and [Tail
 - [Dev Icons](https://devicon.dev/)
 - [Icons 8](https://icons8.com/icons/set)
 - 
+### Screenshot
+![screen](/public/screen-shot.png)
