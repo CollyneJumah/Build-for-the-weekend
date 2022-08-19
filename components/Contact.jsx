@@ -77,7 +77,7 @@ export const Contact = () => {
             <div className='flex justify-center py-12'>
                 {/* scroll to top */}
                 <Link href="/">
-                    <div className='shadow-lg shadow-gray-400 p-4 cursor-pointer rounded-full hover:scale-105 ease-in duration-200'>
+                    <div className='shadow-lg shadow-gray-400 p-4 cursor-pointer  rounded-full hover:scale-105 ease-in duration-200' >
                         <BsChevronDoubleUp size={30} className="text-[#694a41]" />
                     </div>
                 </Link>

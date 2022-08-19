@@ -9,7 +9,7 @@ export const Main = () => {
                 <p className='capitalize text-sm tracking-widest text-gray-600 font-bold'>  Build 🏗️ for the Weekend </p>
                 <h1 className='py-4 text-gray-700'>Hi, 👋 {`I'm`} 
                     <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#B55626] relative inline-block">
-                        <span className="relative text-white">Collins Jumah</span>
+                        <span  className="relative text-white">Collins Jumah</span>
                     </span>
                 </h1>
                 <h1 className='py-2 text-gray-700'>A Front-End Web Developer</h1>
