@@ -53,22 +53,26 @@ export const Navbar = () => {
                     <Image className='hover:cursor-pointer' src="/assets/images/Buildfortheweekend.svg" width={160} height={160} alt="" />
                 </Link>
                 <div>
-                    <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
+                    <ul style={{color: `${linkColor}`}} className='hidden md:flex font-semibold '>
                         <Link href="/#home" > 
-                            
-                            <li className='ml-10 text-sm uppercase hover:border-b'>Home </li>
+                            <li className='flex border-2 p-1 rounded-md ml-10 text-sm border-[#86594c] hover:bg-[#86594c] transition hover:text-white focus:outline-none focus:ring shadow-[6px_6px_0_0_#86594c] hover:shadow-lg'>
+                                <FcHome className='text-lg mr-1' /> Home </li>
                         </Link>
                         <Link href="/#about" > 
-                            <li className='ml-10 text-sm uppercase hover:border-b'>About </li>
+                            <li className='flex ml-10 p-1 text-sm rounded-md border-2 border-[#86594c] hover:bg-[#86594c] transition hover:text-white focus:outline-none focus:ring shadow-[6px_6px_0_0_#86594c] hover:shadow-lg '>
+                                <FcTodoList className='text-lg mr-1' /> About </li>
                         </Link>
                         <Link href="/#skills" > 
-                            <li className='ml-10 text-sm uppercase hover:border-b'>Skills </li>
+                            <li className='flex ml-10 p-1 text-sm rounded-md border-2 border-[#86594c] hover:bg-[#86594c] transition hover:text-white focus:outline-none focus:ring shadow-[6px_6px_0_0_#86594c] hover:shadow-lg '>
+                                <FcPortraitMode className='text-lg mr-1' /> Skills </li>
                         </Link>
                         <Link href="/#projects" > 
-                            <li className='ml-10 text-sm uppercase hover:border-b'>Projects </li>
+                            <li className='flex ml-10 p-1 text-sm rounded-md border-2 border-[#86594c] hover:bg-[#86594c] transition hover:text-white focus:outline-none focus:ring shadow-[6px_6px_0_0_#86594c] hover:shadow-lg '>
+                                <FcTimeline className='text-lg mr-1' /> Blog </li>
                         </Link>
                         <Link href="/#contact" > 
-                            <li className='ml-10 text-sm uppercase hover:border-b'>Contact </li>
+                            <li className='flex ml-10 p-1 text-sm rounded-md border-2 border-[#86594c] hover:bg-[#86594c] transition hover:text-white focus:outline-none focus:ring shadow-[6px_6px_0_0_#86594c] hover:shadow-lg '>
+                                <FcAbout className='text-lg mr-1' /> Contact </li>
                         </Link>
                     </ul> 
                     <div onClick={handleNav} className='md:hidden'>
@@ -98,26 +102,26 @@ export const Navbar = () => {
                     <div className='py-4 flex flex-col'>
                         <ul className='font-semibold'>
                             <Link href="/#home"> 
-                                <li onClick={()=> setNav(false)} className='py-2 text-sm'><FcHome className='text-xl' /> Home </li>
+                                <li onClick={()=> setNav(false)} className='py-2 text-sm flex hover:shadow-lg rounded-lg'><FcHome className='text-xl mr-2' /> Home </li>
                             </Link>
                             <Link href="/#about"> 
-                                <li onClick={()=> setNav(false)} className='py-2 text-sm'><FcTodoList className='text-xl' />About </li>
+                                <li onClick={()=> setNav(false)} className='py-2 text-sm flex hover:shadow-lg rounded-lg'><FcTodoList className='text-xl mr-2' />About </li>
                             </Link>
                             <Link href="/#skills"> 
-                                <li onClick={()=> setNav(false)} className='py-2 text-sm'><FcPortraitMode className='text-xl' />Skills </li>
+                                <li onClick={()=> setNav(false)} className='py-2 text-sm flex hover:shadow-lg rounded-lg'><FcPortraitMode className='text-xl mr-2' />Skills </li>
                             </Link>
                             <Link href="/#projects"> 
-                                <li onClick={()=> setNav(false)} className='py-2 text-sm'><FcTimeline className='text-xl' />Project </li>
+                                <li onClick={()=> setNav(false)} className='py-2 text-sm flex hover:shadow-lg rounded-lg'><FcTimeline className='text-xl mr-2' />Blogs </li>
                             </Link>
                             <Link href="/#contact"> 
-                                <li onClick={()=> setNav(false)} className='py-2 text-sm'><FcAbout className='text-xl' />Contact </li>
+                                <li onClick={()=> setNav(false)} className='py-2 text-sm flex hover:shadow-lg rounded-lg'><FcAbout className='text-xl mr-2' />Contact </li>
                             </Link>
                             <hr />
                             <Link href="/#contact"> 
-                                <li onClick={()=> setNav(false)} className='py-2 text-sm'> <FcSupport className='text-xl' />Support </li>
+                                <li onClick={()=> setNav(false)} className='py-2 text-sm flex hover:shadow-lg rounded-lg'> <FcSupport className='text-xl mr-2' />Support </li>
                             </Link>
                             <Link href="/#contact"> 
-                                <li onClick={()=> setNav(false)} className='py-2 text-sm'> <FcSettings className='text-xl' />Settings </li>
+                                <li onClick={()=> setNav(false)} className='py-2 text-sm flex hover:shadow-lg rounded-lg'> <FcSettings className='text-xl mr-2' />Settings </li>
                             </Link>
 
                         </ul>
