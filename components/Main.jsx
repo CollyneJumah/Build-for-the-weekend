@@ -34,7 +34,7 @@ export const Main = () => {
                     </div>
                     
                 </div>
-                <div className="mt-4 md:mt-8">
+                <div>
                         <Link
                         href="#"
                         >
