@@ -102,7 +102,7 @@ export const Navbar = () => {
                     <div className='py-4 flex flex-col'>
                         <ul className='font-semibold'>
                             <Link href="/#home"> 
-                                <li onClick={()=> setNav(false)} className='py-2 text-sm flex hover:shadow-lg rounded-lg'><FcHome className='text-xl mr-2' /> Home </li>
+                                <li onClick={()=> setNav(false)} className='py-2 text-sm flex rounded-lg border border-[#86594c] hover:bg-[#86594c] transition hover:text-white focus:outline-none focus:ring shadow-[6px_6px_0_0_#86594c] '><FcHome className='text-xl mr-2' /> Home </li>
                             </Link>
                             <Link href="/#about"> 
                                 <li onClick={()=> setNav(false)} className='py-2 text-sm flex hover:shadow-lg rounded-lg'><FcTodoList className='text-xl mr-2' />About </li>
