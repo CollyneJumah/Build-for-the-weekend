@@ -79,7 +79,7 @@ export const Navbar = () => {
             {/* sidebar menu */}
             <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70': ''}>
                 <div className={nav 
-                                ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] bg-gradient-to-r from-[#e9c5ba] to-[#fef9f8] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+                                ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] overflow-auto bg-gradient-to-r from-[#e9c5ba] to-[#fef9f8] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
                                 : 'fixed left-[-100%] top-0 ease-in duration-500'
                     }>
                     <div>
