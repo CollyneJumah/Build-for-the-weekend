@@ -3,7 +3,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import {AiOutlineCloseCircle} from 'react-icons/ai'
 import {FaBars} from 'react-icons/fa'
-import {BsLinkedin,BsTwitter,BsGithub, BsFacebook, BsMenuUp} from 'react-icons/bs'
+import {BsLinkedin,BsTwitter,BsGithub, BsFacebook} from 'react-icons/bs'
+import {FcHome,FcAbout, FcTodoList, FcPortraitMode, FcSupport, FcSettings, FcTimeline} from 'react-icons/fc'
 import {useRouter} from 'next/router'
 
 export const Navbar = () => {
@@ -54,6 +55,7 @@ export const Navbar = () => {
                 <div>
                     <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
                         <Link href="/#home" > 
+                            
                             <li className='ml-10 text-sm uppercase hover:border-b'>Home </li>
                         </Link>
                         <Link href="/#about" > 
@@ -77,38 +79,47 @@ export const Navbar = () => {
             {/* sidebar menu */}
             <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70': ''}>
                 <div className={nav 
-                                ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
-                                : 'fixed left-[-100%] top-0 ease-in duration-500'}>
+                                ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] bg-gradient-to-r from-[#e9c5ba] to-[#fef9f8] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+                                : 'fixed left-[-100%] top-0 ease-in duration-500'
+                    }>
                     <div>
                         <div className='flex w-full items-center justify-between'>
                             <Link href="/#home">
-                                <Image src="/assets/images/Buildfortheweekend.svg" className='hover:cursor-pointer' width={90} height={90} alt="" />
+                                <Image src="/assets/images/Buildfortheweekend.svg" className='hover:cursor-pointer' width={90} height={90} alt="buildForTheWeekEND" />
                             </Link>
-                            <div onClick={handleNav} className='shadow-lg shadow-gray-400 p-3 cursor-pointer rounded-full'>
+                            <div onClick={handleNav} className='shadow-lg shadow-gray-400 p-2 cursor-pointer rounded-full'>
                                 <AiOutlineCloseCircle size={25} className="text-[#86594c]" />
                             </div>
                         </div>
                         <div className='border-b border-gray-300 my-4'>
-                            <p className='w-[85%] md:w-[90%] py-4'>Build for the weekend. All articles in one dec.</p>
+                            <p className='w-[85%] md:w-[90%] py-4 font-semibold text-center'>Build for the weekend. All articles in one dec.</p>
                         </div>
                     </div>
                     <div className='py-4 flex flex-col'>
-                        <ul className='uppercase'>
+                        <ul className='font-semibold'>
                             <Link href="/#home"> 
-                                <li onClick={()=> setNav(false)} className='py-4 text-sm'>Home </li>
+                                <li onClick={()=> setNav(false)} className='py-2 text-sm'><FcHome className='text-xl' /> Home </li>
                             </Link>
                             <Link href="/#about"> 
-                                <li onClick={()=> setNav(false)} className='py-4 text-sm'>About </li>
+                                <li onClick={()=> setNav(false)} className='py-2 text-sm'><FcTodoList className='text-xl' />About </li>
                             </Link>
                             <Link href="/#skills"> 
-                                <li onClick={()=> setNav(false)} className='py-4 text-sm'>Skills </li>
+                                <li onClick={()=> setNav(false)} className='py-2 text-sm'><FcPortraitMode className='text-xl' />Skills </li>
                             </Link>
                             <Link href="/#projects"> 
-                                <li onClick={()=> setNav(false)} className='py-4 text-sm'>Project </li>
+                                <li onClick={()=> setNav(false)} className='py-2 text-sm'><FcTimeline className='text-xl' />Project </li>
                             </Link>
                             <Link href="/#contact"> 
-                                <li onClick={()=> setNav(false)} className='py-4 text-sm'>Contact </li>
+                                <li onClick={()=> setNav(false)} className='py-2 text-sm'><FcAbout className='text-xl' />Contact </li>
                             </Link>
+                            <hr />
+                            <Link href="/#contact"> 
+                                <li onClick={()=> setNav(false)} className='py-2 text-sm'> <FcSupport className='text-xl' />Support </li>
+                            </Link>
+                            <Link href="/#contact"> 
+                                <li onClick={()=> setNav(false)} className='py-2 text-sm'> <FcSettings className='text-xl' />Settings </li>
+                            </Link>
+
                         </ul>
                         <div className="pt-24">
                             <p className='capitalize tracking-widest text-[#86594c] font-bold'>Lets connect ?</p>

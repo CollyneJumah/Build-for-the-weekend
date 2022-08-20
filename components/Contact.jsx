@@ -69,15 +69,15 @@ export const Contact = () => {
                                 <label htmlFor="message" className='after:content-["*"] after:ml-0.5 after:text-red-500 font-semibold capitalize text-sm py-2'>Your Message</label>
                                 <textarea id="message" rows={5} cols={10} className='mt-1 px-3 py-3 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-[#956556] focus:ring-[#956556] block w-full rounded-md sm:text-sm focus:ring-1' placeholder='Drop your message...'></textarea>
                             </div>
-                            <button className='w-full p-4 text-gray-100 mt-4'>Send message</button>
+                            <button className='w-full p-4 text-gray-100 mt-4 hover:bg-[#64d314]'>Send message</button>
                         </form>
                     </div>
                 </div>
             </div>
-            <div className='flex justify-center py-12'>
+            <div className='flex justify-center py-14 relative'>
                 {/* scroll to top */}
                 <Link href="/">
-                    <div className='shadow-lg shadow-gray-400 p-4 cursor-pointer  rounded-full hover:scale-105 ease-in duration-200' >
+                    <div className='shadow-lg shadow-gray-400 p-4 cursor-pointer absolute  rounded-full hover:scale-105 ease-in duration-200' >
                         <BsChevronDoubleUp size={30} className="text-[#694a41]" />
                     </div>
                 </Link>
