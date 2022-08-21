@@ -12,3 +12,12 @@ Build for the weekend portfolio built with [Next](https://nextjs.org/) and [Tail
 - Free Tailiwind components to practice: [HyperUI](https://www.hyperui.dev/)
 - 📑
 - ✍️
+## Semantic Versioning
+- chore: add Oyster build script
+- docs: explain hat wobble
+- feat: add beta sequence
+- fix: remove broken confirmation message
+- refactor: share logic between 4d3d3d3 and flarhgunnstow
+- style: convert tabs to spaces
+- test: ensure Tayne retains clothing
+- [more read here](https://sparkbox.com/foundry/using_lerna_for_design_system_version_management)
