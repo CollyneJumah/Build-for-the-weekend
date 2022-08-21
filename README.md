@@ -10,3 +10,5 @@ Build for the weekend portfolio built with [Next](https://nextjs.org/) and [Tail
 
 ## Resources to read 💯
 - Free Tailiwind components to practice: [HyperUI](https://www.hyperui.dev/)
+- 📑
+- ✍️
