@@ -16,13 +16,8 @@ export const Contact = () => {
                             <img className='rounded-xl hover:scale-105 ease-in duration-300'
                                 src="https://media.istockphoto.com/photos/closeup-image-of-male-hands-using-smartphone-with-icon-telephone-picture-id1168945108?k=20&m=1168945108&s=612x612&w=0&h=MqKJyjMB1NJ33aRB9kjhxqP_GbPmEVB11saJi9sCuwM="  alt="" />
                         </div>
-                        <div>
-                            <h2 className='py-2'>Collins Jumah</h2>
-                            <p>Frontend Developer</p>
-                            <p className="py-4">Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div>
-                            <p className='uppercase pt-8'>Connect with me</p>
+                        <div className='py-16'>
+                            <p className='capitalize text-[#86594c] font-bold pt-8'>Connect with me</p>
                             <div className='flex items-center justify-between py-4'>
                                 <div className='shadow-lg shadow-gray-400 p-6 cursor-pointer rounded-full hover:scale-105 ease-in duration-200'>
                                     <BsLinkedin />

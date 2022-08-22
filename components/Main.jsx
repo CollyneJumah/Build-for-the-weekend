@@ -8,9 +8,9 @@ export const Main = () => {
         <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
            <div>
                 <p className='capitalize text-sm tracking-widest text-gray-600 font-bold'>  Build 🏗️ for the Weekend </p>
-                <h1 className='py-4 text-gray-700'>Hi, 👋 {`I'm`} 
+                <h1 className='py-4 text-gray-700'>Hi, 👋 {`Let's`} 
                     <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#B55626] relative inline-block">
-                        <span  className="relative text-white">Collins Jumah</span>
+                        <span  className="relative text-white">Build For the WeekEND</span>
                     </span>
                 </h1>
                 <h1 className='py-2 text-gray-700'>A Front-End Web Developer</h1>
@@ -32,12 +32,9 @@ export const Main = () => {
                     <div className='shadow-lg shadow-gray-400 p-6 cursor-pointer rounded-full hover:scale-105 ease-in duration-200 '>
                         <BsFacebook className='text-[#3b5998]' />
                     </div>
-                    
                 </div>
                 <div>
-                        <Link
-                        href="#"
-                        >
+                    <Link href="#">
                         <a className="relative inline-block group focus:outline-none focus:ring focus:ring-[#ef5407]">
                             <span
                                 className="relative z-10 block px-12 py-3 text-sm font-medium text-white transition bg-[#B55626] rounded group-hover:scale-105">
@@ -45,9 +42,8 @@ export const Main = () => {
                             </span>
                             <span className="absolute inset-0 transition scale-105 rounded bg-[#f4b392] -rotate-3 group-hover:rotate-0"></span>
                         </a>
-                       
-                        </Link>
-                    </div>
+                    </Link>
+                </div>
            </div>
         </div>
     </div>
