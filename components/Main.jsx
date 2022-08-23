@@ -5,8 +5,8 @@ import { BsFacebook, BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs'
 export const Main = () => {
   return (
     <div id="home" className='w-full h-screen text-center'>
-        <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
-           <div>
+        <div className="max-w-[1240px] w-full h-full mx-auto pt-8 flex justify-center items-center">
+            <div>
                 <p className='capitalize text-sm tracking-widest text-gray-600 font-bold'>  Build 🏗️ for the Weekend </p>
                 <h1 className='py-4 text-gray-700'>Hi, 👋 {`Let's`} 
                     <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#B55626] relative inline-block">
@@ -15,8 +15,7 @@ export const Main = () => {
                 </h1>
                 <h1 className='py-2 text-gray-700'>A Front-End Web Developer</h1>
                 <p className='py-4 text-gray-700 max-w-[70%] m-auto'>
-                {`I’m a developer, writer, and a creator. Specializing in building and esp designing excemptional digital experiences. 
-                    Currently am focused on building responsive Web applications.
+                {`I’m a developer, writer, and a creator. Specializing in building and esp designing excemptional.
                 `}
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
@@ -44,7 +43,7 @@ export const Main = () => {
                         </a>
                     </Link>
                 </div>
-           </div>
+            </div>
         </div>
     </div>
   )
