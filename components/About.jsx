@@ -12,11 +12,6 @@ export const About = () => {
                 Next JS, React basics and proceed accordingly. The course instructor, Mehul Mohan, 
                 explains each concept clearly and concisely. There are also real-world projects included within the portal itself.
                 </p>
-                <p className='py-2 text-gray-600 text-justify'>
-                This Next JS course comes with a learning path. Here, You build as you go. You can choose the learning path 
-                Next JS, React basics and proceed accordingly. The course instructor, Mehul Mohan, 
-                explains each concept clearly and concisely. There are also real-world projects included within the portal itself.
-                </p>
                 <p className="first-line:uppercase first-line:tracking-widest
                   first-letter:text-7xl first-letter:font-bold first-letter:text-[#86594c]
                   first-letter:mr-3 first-letter:float-left text-justify

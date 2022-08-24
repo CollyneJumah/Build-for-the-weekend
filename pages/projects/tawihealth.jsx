@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { BsChevronDoubleRight } from 'react-icons/bs'
+import { BsChevronDoubleRight,BsChevronDoubleLeft } from 'react-icons/bs'
 import tawiImage from '../../public/assets/images/tawi-dashboard.svg'
 
 const tawihealth = () =>{
@@ -17,7 +17,7 @@ const tawihealth = () =>{
         </div>
         <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-5 pt-8'>
           <div className="col-span-4">
-            <p>Project</p>
+            <p>{`[Title]`}</p>
             <h2>Overview</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, fuga! Lorem ipsum dolor sit 
@@ -31,16 +31,16 @@ const tawihealth = () =>{
               <p className='text-center font-bold pb-2'>Technologies</p>
               <div className='grid  grid-cols-3 md:grid-cols-1'>
                 <p className='text-gray-600 py-2 flex items-center'>
-                  <BsChevronDoubleRight className='pr-1'/> React
+                  <BsChevronDoubleRight className='pr-1'/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"  width="30px" height="30px" /> React
                 </p>
                 <p className='text-gray-600 py-2 flex items-center'>
-                  <BsChevronDoubleRight className='pr-1'/> NextJS
+                  <BsChevronDoubleRight className='pr-1'/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" alt='NextJS'  width="30px" height="30px"  />NextJS
                 </p>
                 <p className='text-gray-600 py-2 flex items-center'>
-                  <BsChevronDoubleRight className='pr-1'/> Tailwind 
+                  <BsChevronDoubleRight className='pr-1'/> <Image src="/assets/toolkits/tailwind-css.svg" alt='HTML'  width="30px" height="30px" /> Tailwind 
                 </p>
                 <p className='text-gray-600 py-2 flex items-center'>
-                  <BsChevronDoubleRight className='pr-1'/> CSS
+                  <BsChevronDoubleRight className='pr-1'/> <Image src="/assets/toolkits/css3.svg" alt='HTML'  width="30px" height="30px" /> CSS
                 </p>
                 
               </div>
@@ -48,7 +48,7 @@ const tawihealth = () =>{
           </div>
 
           <Link href="/#projects">
-            <p className='underline cursor-pointer'>back</p>
+            <p className='underline cursor-pointer flex'><BsChevronDoubleLeft /> back</p>
           </Link>
         </div>
       </div>
