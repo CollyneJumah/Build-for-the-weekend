@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import { BsFacebook, BsGithub,BsLinkedin, BsTwitter } from 'react-icons/bs'
 import {FaAws,FaReact} from 'react-icons/fa'
+import {TbBrandTailwind,TbBrandNextjs} from 'react-icons/tb'
 
 export const Main = () => {
   return (
@@ -17,24 +18,20 @@ export const Main = () => {
                 </h1>
                 <h1 className='py-2 text-gray-700'>Building Content for Developers</h1>
                 <p className='py-4 text-gray-700 max-w-[70%] m-auto'>
-                {`I’m a developer, writer, and a creator. Specializing in building excemptional developer content. 
-                `}
+                {`I’m a developer, writer, and a creator. Specializing in building excemptional developer content. `}
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                     <div className='shadow-lg shadow-gray-400 p-6 cursor-pointer rounded-full hover:scale-105 ease-in duration-200 '>
-                        <FaAws className='text-[#007bb6]' />
+                        <FaAws  />
                     </div>
                     <div className='shadow-lg shadow-gray-400 p-6 cursor-pointer rounded-full hover:scale-105 ease-in duration-200 '>
                         <FaReact className='text-[#00aced]'  />
                     </div>
                     <div className='shadow-lg shadow-gray-400 p-6 cursor-pointer rounded-full hover:scale-105 ease-in duration-200 '>
-                        {/* <BsGithub /> */}
-                        <Image src="/assets/toolkits/tailwind-css.svg" alt='HTML'  width="20px" height="20px" />
-
+                        <TbBrandTailwind className='text-[#007bb6]' />
                     </div>
                     <div className='shadow-lg shadow-gray-400 p-6 cursor-pointer rounded-full hover:scale-105 ease-in duration-200 '>
-                        {/* <BsFacebook className='text-[#3b5998]' /> */}
-
+                        <TbBrandNextjs  />
                     </div>
                 </div>
                 <div>
