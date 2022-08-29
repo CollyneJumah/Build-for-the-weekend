@@ -17,7 +17,7 @@ const tawihealth = () =>{
         </div>
         <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-5 pt-8'>
           <div className="col-span-4">
-            <p>{`[Title]`}</p>
+            <p>Title</p>
             <h2>Overview</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, fuga! Lorem ipsum dolor sit 

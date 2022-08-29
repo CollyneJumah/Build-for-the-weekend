@@ -35,7 +35,6 @@ export const Projects = () => {
                     projectURL= "/projects/cendalyne"
                     stack="React,Laravel"
                 />
-                
             </div>
         </div>
     </div>

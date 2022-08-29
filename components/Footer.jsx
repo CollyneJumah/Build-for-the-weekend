@@ -2,6 +2,7 @@ import {BsLinkedin,BsTwitter,BsGithub, BsFacebook, BsMenuUp} from 'react-icons/b
 
 
 const Footer =() =>{
+
     return (
         <div className="p-4 bg-[#86594c] w-full h-auto bottom-0 text-white font-l z-10">
             <div className="text-center text-sm">
