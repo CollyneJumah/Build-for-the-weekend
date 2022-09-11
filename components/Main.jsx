@@ -18,7 +18,7 @@ export const Main = () => {
                 </h1>
                 <h1 className='py-2 text-gray-700'>Building Content for Developers</h1>
                 <p className='py-4 text-gray-700 max-w-[70%] m-auto'>
-                {`I’m a developer, writer, and a creator. Specializing in building excemptional developer content. `}
+                {`I’m a developer, writer, and a creator. Specializing in building excemptional developer content.For the Frontend engineers and th Cloud. `}
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                     <div className='shadow-lg shadow-gray-400 p-6 cursor-pointer rounded-full hover:scale-105 ease-in duration-200 '>
