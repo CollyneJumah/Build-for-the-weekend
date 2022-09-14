@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
 import { ProjectItemsProps } from '../props/ProjectItemsProps'
 import tawiImage from '../public/assets/images/tawi-dashboard.svg'

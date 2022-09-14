@@ -21,3 +21,8 @@ Build for the weekend portfolio built with [Next](https://nextjs.org/) and [Tail
 - style: convert tabs to spaces
 - test: ensure Tayne retains clothing
 - [more read here](https://sparkbox.com/foundry/using_lerna_for_design_system_version_management)
+
+## TO DO
+- Review on projects display props.
+- More about project pages with dynamic content.
+- Booking session functionality
