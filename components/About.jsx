@@ -14,7 +14,7 @@ export const About = () => {
                   first-letter:text-7xl first-letter:font-bold first-letter:text-[#86594c]
                   first-letter:mr-3 first-letter:float-left text-justify
                 ">
-                  We curate visualizing content to help developers understand the flow of the process. Simplifying using flowcharts and well-defined diagrams brings about simplicity and readability.
+                  We curate visualizing content to help developers understand the flow of process. Simplified using flowcharts and well-defined diagrams brings about simplicity, readability and clarity.
                 </p>
             </div>
             <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
