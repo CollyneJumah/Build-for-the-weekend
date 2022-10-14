@@ -5,7 +5,7 @@ export const About = () => {
     <div id="about" className='w-full md:h-screen p-2 flex items-center py-16'>
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
             <div className="col-span-2">
-                <p className='capitalize text-xl tracking-widest text-[#86594c] font-bold'>About</p>
+                <p className='capitalize text-xl tracking-widest text-[#86594c] font-bold'>From Information to Imagination.</p>
                 <h2>For Builders and  Writers</h2>
                 <p className='py-2 text-gray-600 text-justify'>
                   Building content curated for developers
