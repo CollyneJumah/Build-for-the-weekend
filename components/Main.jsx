@@ -1,7 +1,5 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { BsFacebook, BsGithub,BsLinkedin, BsTwitter } from 'react-icons/bs'
 import {FaAws,FaReact} from 'react-icons/fa'
 import {TbBrandTailwind,TbBrandNextjs} from 'react-icons/tb'
 
@@ -35,14 +33,12 @@ export const Main = () => {
                     </div>
                 </div>
                 <div>
-                    <Link href="#">
-                        <a className="relative inline-block group focus:outline-none focus:ring focus:ring-[#ef5407]">
+                    <Link href="#" className='relative inline-block group focus:outline-none focus:ring focus:ring-[#ef5407]'>
                             <span
                                 className="relative z-10 block px-12 py-3 text-sm font-medium text-white transition bg-[#B55626] rounded group-hover:scale-105">
                                 publish your write ✍️
                             </span>
                             <span className="absolute inset-0 transition scale-105 rounded bg-[#f4b392] -rotate-3 group-hover:rotate-0"></span>
-                        </a>
                     </Link>
                 </div>
             </div>

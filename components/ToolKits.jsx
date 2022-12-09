@@ -22,7 +22,7 @@ export const ToolKits = () => {
                 <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer">
                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
                         <div className="m-auto">
-                            <Image src="/assets/toolkits/css3.svg" alt='HTML'  width="64px" height="64px" />
+                            <Image src="/assets/toolkits/css3.svg" alt='HTML'  width="64" height="64" />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>CSS3</h3>
@@ -44,7 +44,7 @@ export const ToolKits = () => {
                 <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer">
                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
                         <div className="m-auto">
-                            <Image src="/assets/toolkits/tailwind-css.svg" alt='HTML'  width="64px" height="64px" />
+                            <Image src="/assets/toolkits/tailwind-css.svg" alt='HTML'  width="64" height="64" />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Tailwind CSS</h3>
@@ -54,7 +54,7 @@ export const ToolKits = () => {
                 <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer">
                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
                         <div className="m-auto">
-                            <Image src="/assets/toolkits/react.svg" alt='HTML'  width="64px" height="64px" />
+                            <Image src="/assets/toolkits/react.svg" alt='HTML'  width="64" height="64" />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>ReactJS</h3>
@@ -64,7 +64,7 @@ export const ToolKits = () => {
                 <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer">
                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
                         <div className="m-auto">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" alt='NextJS'  width="64px" height="64px"  />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" alt='NextJS'  width="64" height="64"  />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>NextJS</h3>
@@ -74,7 +74,7 @@ export const ToolKits = () => {
                 <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer">
                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
                         <div className="m-auto">           
-                            <Image src="/assets/toolkits/aws.svg" alt='AWS'  width="64px" height="64px" />
+                            <Image src="/assets/toolkits/aws.svg" alt='AWS'  width="64" height="64" />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>AWS</h3>
@@ -84,7 +84,7 @@ export const ToolKits = () => {
                 <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer">
                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
                         <div className="m-auto">           
-                            <Image src="/assets/toolkits/laravel.png" alt='Laravel'  width="64px" height="64px" />
+                            <Image src="/assets/toolkits/laravel.png" alt='Laravel'  width="64" height="64" />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Laravel</h3>
@@ -94,7 +94,7 @@ export const ToolKits = () => {
                 <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer">
                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
                         <div className="m-auto">           
-                            <Image src="/assets/toolkits/livewire.png" alt='Livewire'  width="64px" height="64px" />
+                            <Image src="/assets/toolkits/livewire.png" alt='Livewire'  width="64" height="64" />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Livewire</h3>
